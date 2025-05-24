@@ -1,0 +1,149 @@
+
+    .product-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 50px;
+      gap: 50px;
+      color: black;
+      font-family: 'Joti One', cursive;
+    }
+    .product-image {
+      width: 350px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px black;
+    }
+    .product-info h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .product-info select, .product-info input, .product-info button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+    }
+    .product-info {
+      max-width: 400px;
+      text-align: left;
+    }
+    .submit{
+        background-color: #000000;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .submit:hover {
+      background-color: rgb(42, 161, 142);
+    }
+    .add-to-cart {
+      background-color: #000000;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .add-to-cart:hover {
+      background-color: rgb(42, 161, 142);
+    }
+    footer {
+      background: rgb(202, 202, 202);
+      padding: 10px;
+      text-align: center;
+    }
+
+    body{
+    background: linear-gradient( white, red);
+    text-align: center;
+    margin-top: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 0px;
+}
+.h1just{
+  margin-left: 100px; 
+}
+.logo {
+  width: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-links li a:hover{
+  color: aqua;
+}
+
+.container{
+  background: linear-gradient(to right, #ffffff, #808080);
+  width: 95%;
+  margin: auto;
+  box-shadow: 0px 15px 30px 5px black;
+  border-radius: 10px;
+}
+
+.quote{
+  font-family: "Amarante";
+}
+
+video{
+  margin-top: 0%;
+  border-radius: 20px;
+  height: 500px;
+}
+
+tr{
+  font-weight: bold;
+}
+
+.Shop a{
+  padding: 10px 15px;
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  text-decoration: none;
+  border-radius: 5px;
+}
+.Shop{
+  margin-bottom: 25px;
+}
+.Shop a:hover{
+  background-color: rgb(42, 161, 142);
+}
+.shopimage:hover{
+  background-color: rgb(255, 88, 88);
+}
+
+img{
+    border-radius: 10px;
+    padding: 40px;
+}
+
+td a img:hover{
+    transform: scale(1.1);
+    opacity: 70%;
+}
+
+  footer{
+    margin-top: 40px;
+    background: rgb(202, 202, 202);
+    padding: 10px;
+  }

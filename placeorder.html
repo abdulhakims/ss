@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Joti+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css folder/placeorder.css">
+</head>
+<body>
+    <form action="ordersucc.html">
+  <div class="container">
+    <header>
+      <img src="../Pictures folder/nike logo.png" alt="Nike Logo" class="logo">
+      <h1>JUST DO IT.</h1>
+    </header>
+
+    <div class="product-container">
+      <img src="" alt="Product Image" class="product-image" id="productImage">
+      
+      <div class="product-info">
+        <h2 id="productName">Product Name</h2>
+        <h3 id="productPrice">₱0.00</h3>
+
+        <label>Select Colorways:</label>
+        <select id="colorwaysSelect"></select>
+        
+        <label>Select Size:</label>
+        <select>
+          <option>US 6</option>
+          <option>US 7</option>
+          <option>US 8</option>
+          <option>US 9</option>
+          <option>US 10</option>
+          <option>US 11</option>
+          <option>US 12</option>
+        </select>
+
+        <label>Quantity:</label>
+        <input type="number" value="1" min="1">
+
+        <button type="button" class="add-to-cart">Add to Cart</button>
+        <button type="submit" class="submit">Place order</button>
+
+        <h4>Product Details</h4>
+        <p id="productDetails">This is a placeholder product description. It updates dynamically based on the product selected.</p>
+      </div>
+    </div>
+</form>
+
+    <footer>
+      <p>&COPY; 2025 Nike.com &nbsp; All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
